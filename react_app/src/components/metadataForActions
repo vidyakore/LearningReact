@@ -1,0 +1,66 @@
+metadata state changes
+
+//during marking property as static(readonly)
+1->
+"d": {
+    "additionalProperties": true,
+    "type": "object",
+    "title": "Purchasing Organization Text (for update)",
+    "required": [
+        "LongText" //remove from parent required array (when readOnly is set to true)
+    ],
+    "properties": {
+        "LongText": {
+            "default": "static value",
+            "type": "string",
+            "title": "String"
+        }
+    }
+}
+
+1'->
+
+"d": {
+    "additionalProperties": true,
+    "type": "object",
+    "title": "Purchasing Organization Text (for update)",
+    "required": [],
+    "properties": {
+        "LongText": {
+            "default": "static value",
+            "readOnly": true,
+            "AE_required": true, // add this if field is in required array and readOnly is true "type": "string", "title": "String" }
+        }
+    }
+    //during marking property as non static(non readonly)
+    2->
+"d": {
+        "additionalProperties": true,
+        "type": "object",
+        "title": "Purchasing Organization Text (for update)",
+        "required": [],
+        "properties": {
+            "LongText": {
+                "default": "static value",
+                "readOnly": true,
+                "AE_required": true, // add this if field is in required array and readOnly is true "type": "string", "title": "String" }
+            }
+        }
+
+2' ->
+
+"d": {
+            "additionalProperties": true,
+            "type": "object",
+            "title": "Purchasing Organization Text (for update)",
+            "required": [
+                "LongText"
+            ],
+            "properties": {
+                "LongText": {
+                    "default": "static value",
+                    "type": "string",
+                    "title": "String"
+                }
+            }
+        }

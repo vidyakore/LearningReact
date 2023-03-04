@@ -16,7 +16,7 @@ import React from "react";
 //     )
 // }
 
-//destructring the props and state and destructuring in function parameters 
+//destructring the props and state and destructuring in function parameters
 // const Greet = ({ name, heroName }) => {
 //     return (
 //         <div>
@@ -40,6 +40,6 @@ const Greet = props => {
 }
 
 // it will export with the exact name
-// export const Greet = () => <h1>Hello Vidya!</h1>    
+// export const Greet = () => <h1>Hello Vidya!</h1>
 
 export default Greet    //can import with any name

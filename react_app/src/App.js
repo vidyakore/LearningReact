@@ -6,7 +6,18 @@ import Welcome from './components/Welcome';
 import Message from './components/Message';
 import FunctionClick from './components/FunctionClick';
 import ClassClick from './components/ClassClick';
-
+import EventBind from './components/EventBind'
+import ParentComponent from './components/ParentComponent';
+import UserGreeting from './components/UserGreeting';
+import NameList from './components/NameList';
+import Stylesheet from './components/Stylesheet';
+import Inline from './components/inline';
+import './appStyles.css';
+import styles from './appStyles.module.css';
+import Form from './components/Form.js'
+import LifecycleA from './components/LifecycleA';
+import FragmentDemo from './components/FragmentDemo';
+import Table from './components/Table';
 function App() {
 
 
@@ -28,6 +39,23 @@ function App() {
 
       <FunctionClick></FunctionClick>
       <ClassClick></ClassClick>
+
+      <EventBind></EventBind>
+
+      <ParentComponent></ParentComponent>
+
+      <UserGreeting></UserGreeting>
+      <NameList/>
+      {/* video No:20 */}
+      <h2>Video No:20 [CSS and Styling]</h2>
+      <Stylesheet primary = { true }/>
+      <Inline></Inline>
+      <h2 className='error'>regular css</h2>
+      <h2 className={styles.success}>CSS module</h2>
+      <Form/>
+      <LifecycleA/>
+      <FragmentDemo/>
+      <Table/>
     </div>
   );
 

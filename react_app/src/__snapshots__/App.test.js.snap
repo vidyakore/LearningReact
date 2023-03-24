@@ -1,0 +1,500 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders learn react link 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="App"
+      >
+        <div>
+          <h1>
+            Welcome visitor
+          </h1>
+          <button>
+            Subscribe
+          </button>
+        </div>
+        <div>
+          <h1>
+            Hello 
+            clark
+            ! 
+            Superman
+             
+          </h1>
+        </div>
+        <div>
+          <button>
+            click
+          </button>
+        </div>
+        <div>
+          <button>
+             Click me 
+          </button>
+        </div>
+        <div>
+          <h2>
+            Event Bind Video [Video No-14]
+          </h2>
+          <div>
+            helloo!
+          </div>
+          <div>
+            <button>
+               Click render method
+            </button>
+          </div>
+          <div>
+             
+            <button>
+               Click(used arrow function in render) 
+            </button>
+             
+          </div>
+          <div>
+            <button>
+               Click constructor
+            </button>
+          </div>
+        </div>
+        <div>
+          <h2>
+            Method as Props [Video No- 15] 
+          </h2>
+          <div>
+            <button>
+              Greet Parent
+            </button>
+          </div>
+        </div>
+        <div>
+          <h2>
+            Conditional Rendering - [Video 16]
+          </h2>
+          <div>
+            Welcome Guest!
+          </div>
+        </div>
+        <div>
+          <h2>
+            video No - 19 [index as key Anti-pattern]
+          </h2>
+          <h2>
+            0
+             
+            Clark
+          </h2>
+          <h2>
+            1
+             
+            Ron
+          </h2>
+          <h2>
+            2
+             
+            Kal
+          </h2>
+        </div>
+        <h2>
+          Video No:20 [CSS and Styling]
+        </h2>
+        <div>
+          <h2
+            class="primary fontstyle"
+          >
+            Welcome to video NO:20 CSS
+          </h2>
+        </div>
+        <div>
+          <h2
+            style="color: red; font-size: 54px;"
+          >
+            Inline Styling
+          </h2>
+        </div>
+        <h2
+          class="error"
+        >
+          regular css
+        </h2>
+        <h2
+          class="success"
+        >
+          CSS module
+        </h2>
+        <form>
+          <div>
+            <label>
+              Username
+            </label>
+            <input
+              type="text"
+              value=""
+            />
+          </div>
+          <div>
+            <label>
+              Comments
+            </label>
+            <textarea
+              type="text"
+            />
+          </div>
+          <div>
+            <label>
+              Topic
+            </label>
+            <select>
+              <option
+                value="react"
+              >
+                React
+              </option>
+              <option
+                value="angular"
+              >
+                Angular
+              </option>
+              <option
+                value="vue"
+              >
+                Vue
+              </option>
+            </select>
+          </div>
+          <button
+            type="submit"
+          >
+            Submit
+          </button>
+        </form>
+        <div>
+          <h2>
+            Video No - 23 [Component Mounting  Lifecycle]
+          </h2>
+          <div>
+            LifecycleA
+          </div>
+          <h2>
+            Video No - 24 [Component Updating  Lifecycle]
+          </h2>
+          <button>
+            Change State
+          </button>
+          <div>
+            LifeCycleB
+          </div>
+        </div>
+        <h1>
+          Fragment Demo
+        </h1>
+        <div>
+          This describes the Fragment Demo component
+        </div>
+        <table>
+          <tbody>
+            <tr>
+              <td>
+                Name
+              </td>
+              <td>
+                Vidya
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <div>
+          Parent Component
+          <div>
+            Vidu
+          </div>
+        </div>
+        <div>
+          <div>
+            <input
+              type="text"
+            />
+          </div>
+          <button>
+            Focus Input
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="App"
+    >
+      <div>
+        <h1>
+          Welcome visitor
+        </h1>
+        <button>
+          Subscribe
+        </button>
+      </div>
+      <div>
+        <h1>
+          Hello 
+          clark
+          ! 
+          Superman
+           
+        </h1>
+      </div>
+      <div>
+        <button>
+          click
+        </button>
+      </div>
+      <div>
+        <button>
+           Click me 
+        </button>
+      </div>
+      <div>
+        <h2>
+          Event Bind Video [Video No-14]
+        </h2>
+        <div>
+          helloo!
+        </div>
+        <div>
+          <button>
+             Click render method
+          </button>
+        </div>
+        <div>
+           
+          <button>
+             Click(used arrow function in render) 
+          </button>
+           
+        </div>
+        <div>
+          <button>
+             Click constructor
+          </button>
+        </div>
+      </div>
+      <div>
+        <h2>
+          Method as Props [Video No- 15] 
+        </h2>
+        <div>
+          <button>
+            Greet Parent
+          </button>
+        </div>
+      </div>
+      <div>
+        <h2>
+          Conditional Rendering - [Video 16]
+        </h2>
+        <div>
+          Welcome Guest!
+        </div>
+      </div>
+      <div>
+        <h2>
+          video No - 19 [index as key Anti-pattern]
+        </h2>
+        <h2>
+          0
+           
+          Clark
+        </h2>
+        <h2>
+          1
+           
+          Ron
+        </h2>
+        <h2>
+          2
+           
+          Kal
+        </h2>
+      </div>
+      <h2>
+        Video No:20 [CSS and Styling]
+      </h2>
+      <div>
+        <h2
+          class="primary fontstyle"
+        >
+          Welcome to video NO:20 CSS
+        </h2>
+      </div>
+      <div>
+        <h2
+          style="color: red; font-size: 54px;"
+        >
+          Inline Styling
+        </h2>
+      </div>
+      <h2
+        class="error"
+      >
+        regular css
+      </h2>
+      <h2
+        class="success"
+      >
+        CSS module
+      </h2>
+      <form>
+        <div>
+          <label>
+            Username
+          </label>
+          <input
+            type="text"
+            value=""
+          />
+        </div>
+        <div>
+          <label>
+            Comments
+          </label>
+          <textarea
+            type="text"
+          />
+        </div>
+        <div>
+          <label>
+            Topic
+          </label>
+          <select>
+            <option
+              value="react"
+            >
+              React
+            </option>
+            <option
+              value="angular"
+            >
+              Angular
+            </option>
+            <option
+              value="vue"
+            >
+              Vue
+            </option>
+          </select>
+        </div>
+        <button
+          type="submit"
+        >
+          Submit
+        </button>
+      </form>
+      <div>
+        <h2>
+          Video No - 23 [Component Mounting  Lifecycle]
+        </h2>
+        <div>
+          LifecycleA
+        </div>
+        <h2>
+          Video No - 24 [Component Updating  Lifecycle]
+        </h2>
+        <button>
+          Change State
+        </button>
+        <div>
+          LifeCycleB
+        </div>
+      </div>
+      <h1>
+        Fragment Demo
+      </h1>
+      <div>
+        This describes the Fragment Demo component
+      </div>
+      <table>
+        <tbody>
+          <tr>
+            <td>
+              Name
+            </td>
+            <td>
+              Vidya
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <div>
+        Parent Component
+        <div>
+          Vidu
+        </div>
+      </div>
+      <div>
+        <div>
+          <input
+            type="text"
+          />
+        </div>
+        <button>
+          Focus Input
+        </button>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

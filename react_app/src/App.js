@@ -69,7 +69,7 @@ function App() {
 
       {/* <FocusInputClassRef/> */}
       <FRParentInput/>
-      <PortalDemo/>
+      {/* <PortalDemo/> */}
     </div>
   );
 

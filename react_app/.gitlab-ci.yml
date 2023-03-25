@@ -1,6 +1,0 @@
-build project:
-  image: node:16.17.0
-  script:
-    npm install
-    npm test
-    npm build
